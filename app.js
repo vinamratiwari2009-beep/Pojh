@@ -11,7 +11,7 @@ const path = require('path');
 // ============================================
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // ============================================
 // SECTION 3: MIDDLEWARE
