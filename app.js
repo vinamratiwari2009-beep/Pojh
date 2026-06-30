@@ -56,7 +56,8 @@ app.use((err, req, res, next) => {
 // ============================================
 // SECTION 7: SERVER START
 // ============================================
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log(`📊 Admin Panel: http://localhost:${PORT}/admin-panel`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`🌐 Open: http://66.33.22.224:${PORT}`);
+  console.log(`📊 Admin Panel: http://66.33.22.224:${PORT}/admin-panel`);
 });
